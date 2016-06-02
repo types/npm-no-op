@@ -1,0 +1,12 @@
+{
+  "name": "no-op",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/mattdesl/no-op",
+  "version": "1.0.3",
+  "globalDevDependencies": {
+    "node": "registry:env/node#4.0.0+20160507210304"
+  },
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.2.0+20160418015423"
+  }
+}
