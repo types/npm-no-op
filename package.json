@@ -7,8 +7,8 @@
   "version": "1.0.3",
   "scripts": {
     "lint": "tslint -p tsconfig.json --type-check *.ts **/*.ts",
-    "test": "ts-node node_modules/blue-tape/bin/blue-tape \"**/*.ts\" | tap-spec",
-    "watch": "onchange -w \"**/*.ts\" -i -e \"out/**\" -- npm -s run test"
+    "test": "ts-node node_modules/blue-tape/bin/blue-tape \"spec/**/*.ts\" | tap-spec",
+    "watch": "onchange -w \"**/*.ts\" -i -- npm -s run test"
   },
   "devDependencies": {
     "blue-tape": "^1.0.0",
