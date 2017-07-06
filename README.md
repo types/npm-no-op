@@ -1,7 +1,7 @@
-# Typed No Op  [![Build Status](https://travis-ci.org/typed-typings/npm-no-op.svg?branch=master)](https://travis-ci.org/typed-typings/npm-no-op)
+# @types/no-op
 
+[![Build Status](https://travis-ci.org/typed-typings/npm-no-op.svg?branch=master)](https://travis-ci.org/typed-typings/npm-no-op)
 [![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-no-op.svg)](https://greenkeeper.io/)
-
 
 The type definition for [`no-op`](git://github.com/mattdesl/no-op.git)
 

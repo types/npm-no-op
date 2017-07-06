@@ -2,13 +2,18 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "out"
+    "outDir": "out",
+    "baseUrl": ".",
+    "paths": {
+      "no-op": [
+        "."
+      ]
+    }
   },
-  "exclude": [
-    "node_modules",
-    "typings/globals",
-    "typings/modules",
-    "out",
-    "source"
+  "files": [
+    "index.d.ts"
+  ],
+  "include": [
+    "spec"
   ]
 }
